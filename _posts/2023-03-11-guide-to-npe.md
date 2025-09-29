@@ -1,7 +1,7 @@
 ---
 title: "Guide to NullPointerException in Java And How to Avoid it"
 date: 2023-03-11
-categories: [Java]
+categories: [java]
 tags: [NullPointerException, Objects]
 ---
 

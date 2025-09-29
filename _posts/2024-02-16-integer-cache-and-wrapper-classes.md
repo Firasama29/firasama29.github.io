@@ -61,5 +61,3 @@ System.out.println(a.equals(b));       // true
 ```
 
 As you can see, the first comparison will always return false regardless of the value.
-
-That’s it for this article. Thanks for reading.
