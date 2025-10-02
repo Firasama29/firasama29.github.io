@@ -6,7 +6,7 @@ tags: [java, overriding, run-time, OOPs, Polymorphism, Inheritance]
 ---
 
 # How Java Resolves Overridden Methods at Runtime
-![img_1.png](img_1.png)
+![img_1.png](../assets/img/img_1.png)
 <p style="text-align: center;">Photo by Stefan Heinemann on Unsplash</p>
 
 One of the most prominent features in Java that we’re familiar with as Java developers is method overriding, which is a way to achieve run-time Polymorphism. When a class extends a another, it overrides all methods in the extended class, providing its own implementation of each method. Upon running the program, the overridden version of the method in the subclass is called. How is it that the subclass method and not the original method that is executed?
