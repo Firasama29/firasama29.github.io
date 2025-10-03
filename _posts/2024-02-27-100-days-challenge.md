@@ -128,3 +128,5 @@ If you feel this is more challenging than you can commit to, you can go with few
 One thing I always try to keep in mind is to not count on motivation in the attempt to accomplish goals. Consistency is crucial in this aspect and it's mainly possible when the mentality shifts from motivation-driver to system-driver.
 This topic has been the subject of many books, talks, podcasts, and what they're essentially agreeing on - at least from my understanding - is that relying on motivation and that dopamine burst you get when you feel excited about something is not gauranteed to last. Focus on the system, on the process that keeps you on track every day with less effort than running solely after goals. 
 This 100-day challenge, in my opinion, does contribute to the system-driver mindset, which is why I found it very effective.
+
+Thanks for reading!

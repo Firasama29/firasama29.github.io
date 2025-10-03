@@ -70,4 +70,4 @@ As you can see, we demonstrated two ways to perform constructor chaining:
 
 There you have it. This is part two of the series of Java questions and answers. I hope what we’ve discussed so far was helpful. Stay tuned for the next one.
 
-Thanks for reading.
+Thanks for reading!

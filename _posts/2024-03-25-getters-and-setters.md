@@ -100,6 +100,8 @@ In the above example, we defined a constraint in each method to ensure that we�
 - They play a crucial role in data encapsulation, which is a fundamental concept in Object Oriented Programming. Using this approach, you can hide the internal implementation and let the caller interact with the data as you dictate, unlike the case where you publicly expose the internal implementation to external users, potentially risking unexpected results.
 
 ## Conclusion
-Getters and setters in Java provide a restricted access to private member variables of a class, ensuring safe use of the variables. We discussed what getters and setters are, their syntax, how they’re different from the approach of direct exposure of variables and finally, we discussed why we should even use them in the first place.
+Getters and setters in Java provide restricted access to private member variables of a class, ensuring safe use of the variables. We discussed what getters and setters are, their syntax, how they’re different from the approach of direct exposure of variables and finally, we discussed why we should even use them in the first place.
+
+Thanks for reading!
 
 

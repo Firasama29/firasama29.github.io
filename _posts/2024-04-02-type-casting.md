@@ -31,7 +31,7 @@ There are two types of type-casting:
 
 - ***Narrowing conversion (explicit casting)***: If we cast a larger data type to a smaller one, Java compiler will complain and will not perform the conversion. For instance, attempting to cast a `double` to an `int` will trigger a compile error. To solve this, we can explicitly cast the value to the smaller data type using the casting operator ():
   ```java
-  int number = (int) 10.50;  //output = 10, which is an integer
+    int number = (int) 10.50;  //output = 10, which is an integer
   ```
   Contrary to the previous example, the double value of 10.50 is assigned to an integer. Without an explicit operator, a portion of data would be lost since it's larger than what an integer can hold. So we use the casting operator `(int)` next to the double value so that it gets converted and stored as an integer.
 
@@ -42,37 +42,37 @@ There are two types of type-casting:
 ## What is Upcasting?
 Upcasting is a process of implicitly casting a subclass to a superclass and is closely related to inheritance. Before we further discuss this, let’s look an example:
 ```java
-public class Vehicle {
-    private String name;
-
-    public Vehicle() {}
-}
-
-public class Car extends Vehicle {
-    private String model;
-
-    public Car() {
-        super();
-    }
-
-    public String getModel() {
-        return model;
-    }
-}
+  public class Vehicle {
+      private String name;
+  
+      public Vehicle() {}
+  }
+  
+  public class Car extends Vehicle {
+      private String model;
+  
+      public Car() {
+          super();
+      }
+  
+      public String getModel() {
+          return model;
+      }
+  }
 ```
 As you can see, there are two classes, `Vehicle` and `Car`. The **Car** class extends or inherits `Vehicle`. In this scenario, when we create an object of type `Car`, we can either assign it to a reference of type `Car` class like so:
 ```java
-Car vehicle = new Car();
+    Car vehicle = new Car();
 ```
 Or assign it to a reference of type Vehicle, which is the superclass:
 ```java
-Vehicle vehicle = new Car();
+    Vehicle vehicle = new Car();
 ```
 This is an example of upcasting where the compiler implicitly casts the subclass to the superclass.
 
 Using upcasting, we can access all methods defined in the superclass from the subclass but we’re restricted from calling the methods in the sublcass itself. If we attempt to call a method in the subclass based on the last example, the compiler will complain:
 ```java
-Vehicle vehicle = new Car();
+    Vehicle vehicle = new Car();
 ```
 
 ## What is Downcasting?
@@ -80,14 +80,14 @@ Downcasting is the reverse of upcasting. It’s a process of converting from the
 
 Let’s modify the previous example:
 ```java
-// Upcasting
-Vehicle vehicle = new Car();
+  // Upcasting
+  Vehicle vehicle = new Car();
 
-// Downcasting
-if(vehicle instanceof Vehicle) {
-    Car car = (Car) vehicle;
-    car.driveCar();
-}
+  // Downcasting
+  if(vehicle instanceof Vehicle) {
+      Car car = (Car) vehicle;
+      car.driveCar();
+  }
 ```
 We use `instanceof` to check if the vehicle reference is an instance of Vehicle class before explicitly downcasting using the `(Car)` operator. This is a way to prevent `ClassCastException` at runtime.
 
@@ -95,4 +95,4 @@ Downcasting is particularly useful in cases where we have an instance of a super
 
 There you have it. This is part one of the series of Java questions and answers. I hope what we’ve discussed so far was helpful. Stay tuned for part two.
 
-Thanks for reading.
+Thanks for reading!

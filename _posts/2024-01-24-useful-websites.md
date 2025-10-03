@@ -84,4 +84,4 @@ I have compiled a list of interesting online tools and websites for developers, 
   - Maven repository is an centralized online hub for storing and managing artifacts and dependencies to be used with Maven build tool.
   - It serves as a database offering an extensive array of libraries and plugins that can be integrated into Maven projects.
  
-If you know any other helpful tool/website, don't hesitate to leave a comment so we can add it to the list and share the knowledge among the developer community.
+Thanks for reading!

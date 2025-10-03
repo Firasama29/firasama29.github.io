@@ -137,3 +137,5 @@ Method `circle.calculateArea()` is of type `Car`, while `triangle.calculateArea(
 ### Conclusion
 To recap, method overloading allows us to declare any number of methods of the same name in the same class provided they have different parameters. 
 Method overriding, on the other hand, enables subclasses to implement any method in the superclass and define their own implementation.
+
+Thanks for reading!

@@ -99,3 +99,5 @@ There are some rules that we should consider when dealing with private construct
 - they do not allow a class to extend this class
 
 You can find more details on this topic [here](https://stackoverflow.com/questions/17342815/whats-the-use-of-private-constructor-in-java) and [here](https://www.baeldung.com/java-private-constructors).
+
+Thanks for reading!

@@ -59,5 +59,5 @@ By iterating through the above steps every time you encounter a bug or undesired
 >> - This is a positive thing considering that software development is a landscape filled with unpredictable challenges. Embrace it as an opportunity for growth and continuous learning.
 
 >> - Your ability to navigate this landscape with the appropriate mindset will not only make you stand out as an effective developer, but also contribute to your long-term success.
->>
- 
+
+Thanks for reading! 

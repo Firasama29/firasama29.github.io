@@ -53,3 +53,5 @@ In this article I'll share top online resources that helped me in my journey as 
 For more websites, articles, tools and much more, checkout my repository here.
 
 That's it for this article. If you know of any useful website or course that I overlooked, please leave a comment so I can add it to the list.
+
+Thanks for reading!

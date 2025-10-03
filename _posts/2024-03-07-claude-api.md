@@ -100,5 +100,6 @@ To send a request to Claude API, execute the python script by running command `p
 
 >> As of today, the pricing is credit-based, where credits are consumed with each API request based on factors such as the model used, the length of the response, etc. So once your free credits are exhausted, you will be presented with the following error: **'Your credit balance is too low to access the Claude API. Please go to Plans & Billing to upgrade or purchase credits.'**
 
-
 To summarize, we set up an account, generated the API key and set it as an environment variable, then we wrote a python script to call Claude API and pass the required parameters to define the model and other settings. Executing the python script will send an API request and return a response.
+
+Thanks for reading!

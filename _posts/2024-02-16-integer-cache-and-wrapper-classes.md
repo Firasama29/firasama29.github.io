@@ -17,27 +17,28 @@ For the purpose of this article, we’re only going to work with the Integer cla
 
 Let’s look at the example below:
 
-```
-Integer a = Integer.valueOf(10);
-Integer b = 10;
+```java
+  Integer a = Integer.valueOf(10);
+  Integer b = 10;
 ```
 
 This is a simple example. We created two Integer objects: one using the valueOf() method provided by the Integer class and the other using autoboxing feature.
 
-```System.out.println((a == b));          // true
-System.out.println(a.equals(b));       // true
+```java
+  System.out.println((a == b));          // true
+  System.out.println(a.equals(b));       // true
 ```
 
 In the code above, we compared between the two objects using both the ‘==’ operator and equals() method. The output in both cases is true.
 
 However, things take a different turn when we use a different value:
 
-```
-Integer a = Integer.valueOf(350);
-Integer b = 350;
-
-System.out.println((a == b));          // false
-System.out.println(a.equals(b));       // true
+```java
+  Integer a = Integer.valueOf(350);
+  Integer b = 350;
+  
+  System.out.println((a == b));          // false
+  System.out.println(a.equals(b));       // true
 ```
 
 **Why is the output different?**
@@ -52,12 +53,14 @@ This is why the comparison of Integer 10 returns true while that of a value not 
 
 Integer Cache mechanism only works with auto-boxing or the Integer.valueOf()method. It is not applicable when creating a wrapper object using the constructor:
 
-```
-Integer a = new Integer(12);
-Integer b = new Integer(12);
-
-System.out.println((a == b));          // false
-System.out.println(a.equals(b));       // true
+```java
+  Integer a = new Integer(12);
+  Integer b = new Integer(12);
+  
+  System.out.println((a == b));          // false
+  System.out.println(a.equals(b));       // true
 ```
 
 As you can see, the first comparison will always return false regardless of the value.
+
+Thanks for reading!

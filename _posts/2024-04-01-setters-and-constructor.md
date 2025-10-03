@@ -94,6 +94,7 @@ Here are some of the key points for both the setter and constructor that should 
 - Use this when you want to set initial values when you create an object.
 - It allows you to declare final variables, so they’re useful when you want to ensure they cannot be changed after initialization.
 
-## Conclusion
-
+## In summary
 We’ve discussed the use of setters and constructors in setting values of instance variables. Understanding the difference between setter methods and constructors is essential to making informed decisions on when to use them.
+
+Thanks for reading!

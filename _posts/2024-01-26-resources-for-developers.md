@@ -49,3 +49,5 @@ In this article I'll share top online resources that helped me in my journey as 
 >> 1. Over-abundance of choices: While you'll likely find so many of the above resources very valuable, it does not mean it's a good idea to go through all of them. In fact, it can be quite the opposite. You don't want to be stuck in tutorials forever. You need to pick a handful of resources and focus on them until you feel comfortable with the language that you are learning.
 >> 2. Practice, practice and practice: Effective learning in the field of web and software development requires practice. I can not emphasize enough the importance of this point for your career. Don't be afraid to make mistakes. In fact, that is an essential part of making progress. If you feel stuck, reach out to any online community such as StackOverFlow and make use of Artificial Intelligence tools like ChatGPT.
       >> In brief, my advice is to focus and practice constantly.
+
+Thanks for reading!
