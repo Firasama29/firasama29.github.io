@@ -6,38 +6,30 @@ tags: [NullPointerException, Objects]
 ---
 
 
-Guide to NullPointerException in Java And How to Avoid it
-NullPointerException (or NPE for short) is one of those dreaded exceptions that every Java developer has to face in their career. We'll discuss the exception, why and when it exists and how to avoid it in detail later, but first, let's understand the concept of null in Java, which is the culprit behind NullPointerException.
+# Handling NullPointerException in Java
+`null` in Java is used in relation to objects to indicate that a reference variable does not reference any object in memory.
+It simply denotes the absence of value.
 
-What is null in java?
-null is a special lateral that is used in Java to denote the absence of a value. It indicates that a reference variable does not reference any object in memory. It simply means the variable does not point to any object.
+We can only assign `null` to a reference type variable (Strings, Objects and arrays):
+```java
+  String str = null;
 
-null is case-sensitive, which means Java compiler will only recognize the word null, not Null or NULL.
+  Object obj = null;
 
-We can assign null to a reference type variable (Strings, Objects and arrays):
+  int[] intArr = null;
+```
+When a reference points to nothing where it's expected to, Java halts the program and throws a `NullPointerException` exception.
 
-String str = null;
+`NullPointerException` or NPE for short is one of the most commonly dreaded exceptions We'll discuss why it exists and how to avoid it in detail.
 
-Object obj = null;
-
-int[] intArr = null;
-Note that we can only assign null to a variable of reference type, not primitive type. Let's have a quick look at the difference between both in the next section.
-
-Primitive vs Reference Types
-In Java, variables are simply pointers to something in memory. a Primitive points to the value itself while a non-Primitive or Reference type points to a reference of an object.
-
-Primitive types refer to data types like int, float, double, boolean, etc. When you declare a variable in Java, you must specify what type it is so that the Java compiler can reserve a block of memory to store the value of that type. The variable is simply a reference that points to that memory location. In simpler words, if you want to declare a variable that holds an integer value, then you need to use the type int like this:
-
-int myInteger = 20;
-The above code declares the variable myInteger of type int and initializes it to the value of 20 . This tells the Java compiler to reserve enough memory to store an integer value.
-
-In the case of Reference types, when we declare a variable of a non-primitive type such as String, Class, Array, etc., Java creates an object that holds the value of that reference type, stores it on the heap and returns a reference of that object which is then stored in the variable we declared. Through that reference, we can access the object's properties and methods.
+When we declare a variable of a non-primitive type such as String, Class, Array, etc., Java creates an object that holds the value of that reference type, stores it on the heap and returns a reference of that object which is then stored in the variable we declared. Through that reference, we can access the object's properties and methods.
 
 So null can only be assigned to reference type variables and not primitives. But why?
 
 The answer is simple, a primitive type points directly to the value stored in memory, whereas a reference type holds a reference to an object. So for example, if we declare a variable of type String and assign null to it like so:
 
 String str = null;
+
 we're essentially saying that the above variable does not point to any object in memory. That's why the concept of null only works with reference types.
 
 What is NullPointerException in Java?
@@ -95,21 +87,24 @@ String[] stringArr = null;
 stringArr[0] = "example"; // throws NPE
 Throwing null as if it were a Throwable value.
 
-class MyClass {
-   private String name;
+```java
+  class MyClass {
+    private String name;
 
-   public String getName() {
-       throw null;     
-   }                                                
-}
-           
-public class Example {
-   public static void main(String[] args) {
-       MyClass myClass = new MyClass();
-       System.out.println(myClass.getName()); // throws NPE
-   }
-}
-Why is it important to avoid NullPointerException
+    public String getName() {
+      throw null;
+    }
+  }
+
+  public class Example {
+    public static void main(String[] args) {
+      MyClass myClass = new MyClass();
+      System.out.println(myClass.getName()); // throws NPE
+    }
+  }
+```
+**Why is it important to avoid NullPointerException?**
+
 Null pointer exceptions will occur throughout the application's life unless we make sure to take the necessary precautions to prevent them beforehand as much as possible. This is an important step in the development of an application, but why? Well, because `NullPointerException` can cause some pretty annoying issues.
 It can cause the application to crash or behave unexpectedly because NullPointerException is an unchecked runtime exception. In other words, it only occurs during runtime and causes the application to terminate abruptly. And that's not something you want in your application.
 
@@ -126,6 +121,7 @@ Using simple null checks: One of the most basic techniques to prevent NPE is by 
 
 with if-else statement: When comparing two objects, it's always recommended to have the non-null object on the lefthand side of the .equals() method. Otherwise, the code will produce NullPointerException. This is because the .equals() method is a member method of an object, so if you try to call a method of an object that is assigned as null then you already know the outcome of doing so. Look at the code below:
 
+```java
   String str1 = null;
   String str2 = "Not Null";
   // this will produce NullPointerException
@@ -136,17 +132,18 @@ with if-else statement: When comparing two objects, it's always recommended to h
   if(str2.equals(str1)) {
       // do something
   }
+```  
   
 Let's see another example of null check on an array
 
-<pre>
-String[] strArr = null;
-if(strArr != null) {
-    // do something
-} else {
-    // do something        // throws NPE
-}
-</pre>
+  ```java
+  String[] strArr = null;
+  if(strArr != null) {
+      // do something
+  } else {
+      // do something        // throws NPE
+  }
+  ```
 with ternary operator:
 
 String str = null;

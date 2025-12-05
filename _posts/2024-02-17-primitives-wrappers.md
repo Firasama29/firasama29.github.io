@@ -93,3 +93,5 @@ Integer d = a + (c * b);   // 444
 Remember to always assign a value to the wrapper class object before using it to avoid causing **NullPointerException**.
 
 So in short, we can conclude that using primitive data types requires less memory consumption, making them much faster and more efficient compared to their Wrapper counterparts. Therefore primitives should be used unless Wrapper classes are applicable in an object-related context such as when dealing with collections.
+
+Thanks for reading!
