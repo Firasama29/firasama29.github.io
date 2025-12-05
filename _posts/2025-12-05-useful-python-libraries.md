@@ -1,6 +1,4 @@
-# Useful Python Libraries
-
-## `requests`
+# Python's Requests module
 
 Requests library or module is one of python's most widely used libraries for making HTTP requests. It provides an intuitive API that supports all major HTTP methods like `GET`, `POST`, `PUT`, `DELETE`, without the need to manually handle low-level networking details.
 
