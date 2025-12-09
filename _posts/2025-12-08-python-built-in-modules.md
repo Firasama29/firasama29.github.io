@@ -1,3 +1,10 @@
+---
+title: Built-in Modules in Python
+date: 2025-12-08
+categories: [python]
+tags: [python, modules]
+---
+
 # Built-in Modules in Python
 
 A module in python can refer to a file containing reusable code. A library is a collection of modules. It can either be imported from an external provider or pre-packaged with Python installation. And like in many other programming languages, a module simply contains a list of files/classes containing utility functions that you can use in your application.
