@@ -5,8 +5,6 @@ categories: [java]
 tags: [java, type-casting]
 ---
 
-# What are Getters and Setters in Java and Why Use Them?
-
 Getters and setters are simply methods that are commonly used in Java applications to access and modify private fields of a class. They are typically defined with the below syntax:
 
 ```java

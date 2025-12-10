@@ -5,8 +5,6 @@ categories: [software development]
 tags: [websites, developer]
 ---
 
-# Useful websites and tools for developers
-
 I have compiled a list of interesting online tools and websites for developers, from simplifying `JSON` manipulation to converting between different data types. Each tool serves a specific purpose to enhance the development workflow. Let's discuss them below:
 
 ## JSON

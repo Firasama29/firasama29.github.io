@@ -7,8 +7,6 @@ tags: [java, type-casting]
 
 ![image](https://github.com/Firasama29/my-blog/assets/67781796/869a3342-187b-41bb-96f2-a6b61e4e4d32)
 
-# Java Questions and Answers (Part 1) — Type-Casting
-
 I’ve compiled a list of questions and answers about fundamental topics in Java that I believe every Java developer should be aware of. This is part 1, covering the concepts of ***type-casting***, ***upcasting*** and ***downcasting***.
 
 ## What is type-casting?

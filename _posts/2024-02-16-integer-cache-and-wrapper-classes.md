@@ -5,11 +5,7 @@ categories: [java]
 tags: [java, integer, cache, wrappers]
 ---
 
-# Why is 1 == 1 is true but 1000 == 1000 is false When dealing with Wrapper Classes in Java?
-
-That’s a loaded title.
-
-In this article, we’re going to discuss a behavior that occurs when we use the ‘==’ operator to compare Wrapper classes.
+This article discusses a behavior that occurs when the ‘==’ operator is used to compare Wrapper classes.
 
 Wrapper classes are used to wrap the corresponding primitive data types so they can be used as objects in a context that requires only objects like collections (Lists, Sets and Maps). For example, the Integer class corresponds to int data type, Double corresponds to double and so on.
 

@@ -5,7 +5,6 @@ categories: [java]
 tags: [java, overriding, run-time, OOPs, Polymorphism, Inheritance]
 ---
 
-# How Java Resolves Overridden Methods at Runtime
 ![img_1.png](../assets/img/img_1.png)
 <p style="text-align: center;">Photo by Stefan Heinemann on Unsplash</p>
 

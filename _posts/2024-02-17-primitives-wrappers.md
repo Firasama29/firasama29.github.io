@@ -5,8 +5,6 @@ categories: [java]
 tags: [primitives, wrappers]
 ---
 
-# Should we use primitive data types or Wrapper classes in Java?
-
 This question occurred to me while I was immersed in some research on Wrapper Classes. This is one of the most fundamental topics in Core Java that I find interesting and essential to study deeply.
 
 Wrapper classes are an integral part of Java. They are classes that encapsulate their corresponding primitive data types: **Integer** corresponds to **int** data type, **Double** corresponds to **double**, **Float** to **float**, **Boolean** to **boolean** and so on.

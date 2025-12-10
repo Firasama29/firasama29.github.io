@@ -5,7 +5,6 @@ categories: [software development]
 tags: [tips, developer]
 ---
 
-# The Most Important Skill as a Developer
 Contrary to popular belief, software developers don't write code for the majority of their time; instead, they dedicate 80% of their time to solving problems, seeking optimal ways to write code or finding the best library or framework for their projects. Coding is simply the means to apply their findings.
 
 Problem-solving is one, if not the most important skill for a software developer. This is because problems are a fundamental aspect of software development and you may encounter them on a daily basis. They are unpredictable and can range from simple syntax errors to runtime exceptions. Hence, it is essential to focus on enhancing this skill in order to excel as a software developer.

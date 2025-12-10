@@ -1,4 +1,9 @@
-# Managing Different Java versions with SDKMAN!
+---
+title: Managing Different Java versions with SDKMAN!
+date: 2025-09-11
+categories: [java]
+tags: [java, jdk]
+---
 
 ![img-3.png](../assets/img/img-3.png)
 <p align="center">Photo by Kevin Ku on Unsplash</p>

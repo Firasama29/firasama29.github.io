@@ -5,7 +5,6 @@ categories: [AI]
 tags: [AI, claude, API]
 ---
 
-# Getting Started with Claude API
 ![image](https://github.com/Firasama29/my-blog/assets/67781796/d255b38f-6432-466c-897d-d42bd8eaf345)
 
 Anthropic is an AI safety and research company at the forefront of building reliable AI systems. The company’s core mission revolves around cutting-edge research and crafting beneficial AI systems. One of their flagship products is Claude, an AI assistant designed to facilitate fast and engaging conversational interactions.

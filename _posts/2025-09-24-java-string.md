@@ -5,8 +5,6 @@ categories: [java]
 tags: [java, jdk, tools]
 ---
 
-# Important Aspects of Java Strings and the String Pool Every Developer Should Know
-
 ![img_2.png](../assets/img/img_2.png)
 <p style="text-align:center">Photo by Bernd 📷 Dittrich on Unsplash</p>
 

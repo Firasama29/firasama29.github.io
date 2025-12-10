@@ -5,7 +5,6 @@ categories: [java]
 tags: [java, overriding, overloading, OOPs, Polymorphism]
 ---
 
-# Guide to Method Overloading vs. Overriding
 ![img.png](../assets/img/img.png)
 
 Method overloading and overriding are two forms of Polymorphism in Java. In this article we’re going to discuss each concept, their characteristics and key rules when working on them.

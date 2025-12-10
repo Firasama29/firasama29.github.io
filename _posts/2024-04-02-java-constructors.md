@@ -5,8 +5,6 @@ categories: [java]
 tags: [java, constructors]
 ---
 
-# Java Questions and Answers (Part 2) — Constructors
-
 I’ve compiled a list of questions and answers about fundamental topics in Java that I believe every Java developer should be aware of. This is part 2, covering the topic of **Constructors**.
 
 ## What is a Java constructor?

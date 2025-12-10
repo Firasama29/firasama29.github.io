@@ -5,8 +5,6 @@ categories: [java]
 tags: [NullPointerException, Objects]
 ---
 
-
-# Handling NullPointerException in Java
 `null` in Java is used in relation to objects to indicate that a reference variable does not reference any object in memory.
 It simply denotes the absence of value.
 

@@ -5,8 +5,6 @@ categories: [tech]
 tags: [http]
 ---
 
-# HTTP
-
 HTTP (Hypertext Transfer Protocol) is the foundation of web communication between client and server. It follows a request-response model where the web browser (chrome, firefox, etc.) - acting as the client - sends an HTTP request to a server that is hosting
 the website, and the server processes the request and sends back an HTTP response.
 
