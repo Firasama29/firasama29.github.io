@@ -102,19 +102,3 @@ To receive notifications when Claude finishes a task, I've added it to the `Stop
 ```
 
 That's it. Integrating `ntfy` with Claude hooks is a small but meaningful improvement to my multi-session workflow - no more guessing if a task finishes or needs my input. It's not a complete solution to managing multiple sessions, but definitely a solid start.
-
-
-telegram
-
---this is after installing the plugin and creating the bot and other steps
- Current status:
-  - Token: set ✓
-  - Access policy: not configured yet → defaults to pairing with an empty allowlist
-  - Allowed senders: none yet
-  - Pending pairings: none
-
-  Next steps:
-  1. Run /reload-plugins (or restart the session) so the server picks up the new token.
-  2. DM your bot on Telegram — it'll reply with a pairing code. 
-  3. Approve yourself with /telegram:access pair <code>.
-  4. Once you're in (and anyone else who needs access), we should lock the policy down with /telegram:access policy allowlist so no one else can trigger pairing codes.
